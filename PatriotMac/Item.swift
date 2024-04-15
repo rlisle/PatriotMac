@@ -11,8 +11,12 @@ import SwiftData
 @Model
 final class Item {
     var timestamp: Date
+    var topic: String
+    var message: String
     
     init(timestamp: Date) {
         self.timestamp = timestamp
+        topic = "none"
+        message = "none"
     }
 }
