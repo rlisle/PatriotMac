@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27DB6C252BCD580F008ADA85 /* PatriotMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C242BCD580F008ADA85 /* PatriotMacApp.swift */; };
+		27DB6C272BCD580F008ADA85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C262BCD580F008ADA85 /* ContentView.swift */; };
+		27DB6C292BCD580F008ADA85 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C282BCD580F008ADA85 /* Item.swift */; };
+		27DB6C2B2BCD5810008ADA85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27DB6C2A2BCD5810008ADA85 /* Assets.xcassets */; };
+		27DB6C2E2BCD5810008ADA85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27DB6C2D2BCD5810008ADA85 /* Preview Assets.xcassets */; };
+		27DB6C392BCD5810008ADA85 /* PatriotMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C382BCD5810008ADA85 /* PatriotMacTests.swift */; };
+		27DB6C432BCD5810008ADA85 /* PatriotMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C422BCD5810008ADA85 /* PatriotMacUITests.swift */; };
+		27DB6C452BCD5810008ADA85 /* PatriotMacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C442BCD5810008ADA85 /* PatriotMacUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27DB6C352BCD5810008ADA85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27DB6C192BCD580F008ADA85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27DB6C202BCD580F008ADA85;
+			remoteInfo = PatriotMac;
+		};
+		27DB6C3F2BCD5810008ADA85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27DB6C192BCD580F008ADA85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27DB6C202BCD580F008ADA85;
+			remoteInfo = PatriotMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27DB6C212BCD580F008ADA85 /* PatriotMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatriotMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DB6C242BCD580F008ADA85 /* PatriotMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatriotMacApp.swift; sourceTree = "<group>"; };
+		27DB6C262BCD580F008ADA85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27DB6C282BCD580F008ADA85 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		27DB6C2A2BCD5810008ADA85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27DB6C2D2BCD5810008ADA85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27DB6C2F2BCD5810008ADA85 /* PatriotMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PatriotMac.entitlements; sourceTree = "<group>"; };
+		27DB6C342BCD5810008ADA85 /* PatriotMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatriotMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DB6C382BCD5810008ADA85 /* PatriotMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatriotMacTests.swift; sourceTree = "<group>"; };
+		27DB6C3E2BCD5810008ADA85 /* PatriotMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatriotMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DB6C422BCD5810008ADA85 /* PatriotMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatriotMacUITests.swift; sourceTree = "<group>"; };
+		27DB6C442BCD5810008ADA85 /* PatriotMacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatriotMacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27DB6C1E2BCD580F008ADA85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DB6C312BCD5810008ADA85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DB6C3B2BCD5810008ADA85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27DB6C182BCD580F008ADA85 = {
+			isa = PBXGroup;
+			children = (
+				27DB6C232BCD580F008ADA85 /* PatriotMac */,
+				27DB6C372BCD5810008ADA85 /* PatriotMacTests */,
+				27DB6C412BCD5810008ADA85 /* PatriotMacUITests */,
+				27DB6C222BCD580F008ADA85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27DB6C222BCD580F008ADA85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27DB6C212BCD580F008ADA85 /* PatriotMac.app */,
+				27DB6C342BCD5810008ADA85 /* PatriotMacTests.xctest */,
+				27DB6C3E2BCD5810008ADA85 /* PatriotMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27DB6C232BCD580F008ADA85 /* PatriotMac */ = {
+			isa = PBXGroup;
+			children = (
+				27DB6C242BCD580F008ADA85 /* PatriotMacApp.swift */,
+				27DB6C262BCD580F008ADA85 /* ContentView.swift */,
+				27DB6C282BCD580F008ADA85 /* Item.swift */,
+				27DB6C2A2BCD5810008ADA85 /* Assets.xcassets */,
+				27DB6C2F2BCD5810008ADA85 /* PatriotMac.entitlements */,
+				27DB6C2C2BCD5810008ADA85 /* Preview Content */,
+			);
+			path = PatriotMac;
+			sourceTree = "<group>";
+		};
+		27DB6C2C2BCD5810008ADA85 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27DB6C2D2BCD5810008ADA85 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27DB6C372BCD5810008ADA85 /* PatriotMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				27DB6C382BCD5810008ADA85 /* PatriotMacTests.swift */,
+			);
+			path = PatriotMacTests;
+			sourceTree = "<group>";
+		};
+		27DB6C412BCD5810008ADA85 /* PatriotMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27DB6C422BCD5810008ADA85 /* PatriotMacUITests.swift */,
+				27DB6C442BCD5810008ADA85 /* PatriotMacUITestsLaunchTests.swift */,
+			);
+			path = PatriotMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27DB6C202BCD580F008ADA85 /* PatriotMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27DB6C482BCD5810008ADA85 /* Build configuration list for PBXNativeTarget "PatriotMac" */;
+			buildPhases = (
+				27DB6C1D2BCD580F008ADA85 /* Sources */,
+				27DB6C1E2BCD580F008ADA85 /* Frameworks */,
+				27DB6C1F2BCD580F008ADA85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatriotMac;
+			productName = PatriotMac;
+			productReference = 27DB6C212BCD580F008ADA85 /* PatriotMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27DB6C332BCD5810008ADA85 /* PatriotMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27DB6C4B2BCD5810008ADA85 /* Build configuration list for PBXNativeTarget "PatriotMacTests" */;
+			buildPhases = (
+				27DB6C302BCD5810008ADA85 /* Sources */,
+				27DB6C312BCD5810008ADA85 /* Frameworks */,
+				27DB6C322BCD5810008ADA85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27DB6C362BCD5810008ADA85 /* PBXTargetDependency */,
+			);
+			name = PatriotMacTests;
+			productName = PatriotMacTests;
+			productReference = 27DB6C342BCD5810008ADA85 /* PatriotMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27DB6C3D2BCD5810008ADA85 /* PatriotMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27DB6C4E2BCD5810008ADA85 /* Build configuration list for PBXNativeTarget "PatriotMacUITests" */;
+			buildPhases = (
+				27DB6C3A2BCD5810008ADA85 /* Sources */,
+				27DB6C3B2BCD5810008ADA85 /* Frameworks */,
+				27DB6C3C2BCD5810008ADA85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27DB6C402BCD5810008ADA85 /* PBXTargetDependency */,
+			);
+			name = PatriotMacUITests;
+			productName = PatriotMacUITests;
+			productReference = 27DB6C3E2BCD5810008ADA85 /* PatriotMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27DB6C192BCD580F008ADA85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					27DB6C202BCD580F008ADA85 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					27DB6C332BCD5810008ADA85 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 27DB6C202BCD580F008ADA85;
+					};
+					27DB6C3D2BCD5810008ADA85 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 27DB6C202BCD580F008ADA85;
+					};
+				};
+			};
+			buildConfigurationList = 27DB6C1C2BCD580F008ADA85 /* Build configuration list for PBXProject "PatriotMac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27DB6C182BCD580F008ADA85;
+			productRefGroup = 27DB6C222BCD580F008ADA85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27DB6C202BCD580F008ADA85 /* PatriotMac */,
+				27DB6C332BCD5810008ADA85 /* PatriotMacTests */,
+				27DB6C3D2BCD5810008ADA85 /* PatriotMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27DB6C1F2BCD580F008ADA85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DB6C2E2BCD5810008ADA85 /* Preview Assets.xcassets in Resources */,
+				27DB6C2B2BCD5810008ADA85 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DB6C322BCD5810008ADA85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DB6C3C2BCD5810008ADA85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27DB6C1D2BCD580F008ADA85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DB6C272BCD580F008ADA85 /* ContentView.swift in Sources */,
+				27DB6C292BCD580F008ADA85 /* Item.swift in Sources */,
+				27DB6C252BCD580F008ADA85 /* PatriotMacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DB6C302BCD5810008ADA85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DB6C392BCD5810008ADA85 /* PatriotMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DB6C3A2BCD5810008ADA85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DB6C452BCD5810008ADA85 /* PatriotMacUITestsLaunchTests.swift in Sources */,
+				27DB6C432BCD5810008ADA85 /* PatriotMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27DB6C362BCD5810008ADA85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27DB6C202BCD580F008ADA85 /* PatriotMac */;
+			targetProxy = 27DB6C352BCD5810008ADA85 /* PBXContainerItemProxy */;
+		};
+		27DB6C402BCD5810008ADA85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27DB6C202BCD580F008ADA85 /* PatriotMac */;
+			targetProxy = 27DB6C3F2BCD5810008ADA85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27DB6C462BCD5810008ADA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27DB6C472BCD5810008ADA85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		27DB6C492BCD5810008ADA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PatriotMac/PatriotMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PatriotMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 65NFWK9633;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lisles.PatriotMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		27DB6C4A2BCD5810008ADA85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PatriotMac/PatriotMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PatriotMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 65NFWK9633;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lisles.PatriotMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		27DB6C4C2BCD5810008ADA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65NFWK9633;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lisles.PatriotMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatriotMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PatriotMac";
+			};
+			name = Debug;
+		};
+		27DB6C4D2BCD5810008ADA85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65NFWK9633;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lisles.PatriotMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatriotMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PatriotMac";
+			};
+			name = Release;
+		};
+		27DB6C4F2BCD5810008ADA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65NFWK9633;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lisles.PatriotMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PatriotMac;
+			};
+			name = Debug;
+		};
+		27DB6C502BCD5810008ADA85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65NFWK9633;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lisles.PatriotMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PatriotMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27DB6C1C2BCD580F008ADA85 /* Build configuration list for PBXProject "PatriotMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DB6C462BCD5810008ADA85 /* Debug */,
+				27DB6C472BCD5810008ADA85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27DB6C482BCD5810008ADA85 /* Build configuration list for PBXNativeTarget "PatriotMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DB6C492BCD5810008ADA85 /* Debug */,
+				27DB6C4A2BCD5810008ADA85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27DB6C4B2BCD5810008ADA85 /* Build configuration list for PBXNativeTarget "PatriotMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DB6C4C2BCD5810008ADA85 /* Debug */,
+				27DB6C4D2BCD5810008ADA85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27DB6C4E2BCD5810008ADA85 /* Build configuration list for PBXNativeTarget "PatriotMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DB6C4F2BCD5810008ADA85 /* Debug */,
+				27DB6C502BCD5810008ADA85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27DB6C192BCD580F008ADA85 /* Project object */;
+}
