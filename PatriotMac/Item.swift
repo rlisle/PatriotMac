@@ -14,9 +14,15 @@ final class Item {
     var topic: String
     var message: String
     
-    init(timestamp: Date) {
+    init() {
+        self.timestamp = Date()
+        self.topic = "none"
+        self.message = "none"
+    }
+    
+    init(timestamp: Date, topic: String, message: String) {
         self.timestamp = timestamp
-        topic = "none"
-        message = "none"
+        self.topic = topic
+        self.message = message
     }
 }

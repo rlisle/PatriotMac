@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		275FD9EA2BCDBC9300937167 /* CommandColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275FD9E92BCDBC9300937167 /* CommandColumn.swift */; };
+		275FD9EC2BCDBDBF00937167 /* StatusColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275FD9EB2BCDBDBF00937167 /* StatusColumn.swift */; };
+		275FD9EE2BCDBDEE00937167 /* LogColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275FD9ED2BCDBDEE00937167 /* LogColumn.swift */; };
 		27DB6C252BCD580F008ADA85 /* PatriotMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C242BCD580F008ADA85 /* PatriotMacApp.swift */; };
 		27DB6C272BCD580F008ADA85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C262BCD580F008ADA85 /* ContentView.swift */; };
 		27DB6C292BCD580F008ADA85 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C282BCD580F008ADA85 /* Item.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		275FD9E92BCDBC9300937167 /* CommandColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandColumn.swift; sourceTree = "<group>"; };
+		275FD9EB2BCDBDBF00937167 /* StatusColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusColumn.swift; sourceTree = "<group>"; };
+		275FD9ED2BCDBDEE00937167 /* LogColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogColumn.swift; sourceTree = "<group>"; };
 		27DB6C212BCD580F008ADA85 /* PatriotMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatriotMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DB6C242BCD580F008ADA85 /* PatriotMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatriotMacApp.swift; sourceTree = "<group>"; };
 		27DB6C262BCD580F008ADA85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 			children = (
 				27DB6C242BCD580F008ADA85 /* PatriotMacApp.swift */,
 				27DB6C262BCD580F008ADA85 /* ContentView.swift */,
+				275FD9ED2BCDBDEE00937167 /* LogColumn.swift */,
+				275FD9E92BCDBC9300937167 /* CommandColumn.swift */,
+				275FD9EB2BCDBDBF00937167 /* StatusColumn.swift */,
 				27DB6C282BCD580F008ADA85 /* Item.swift */,
 				27DB6C2A2BCD5810008ADA85 /* Assets.xcassets */,
 				27DB6C2F2BCD5810008ADA85 /* PatriotMac.entitlements */,
@@ -264,7 +273,10 @@
 			files = (
 				27DB6C272BCD580F008ADA85 /* ContentView.swift in Sources */,
 				27DB6C292BCD580F008ADA85 /* Item.swift in Sources */,
+				275FD9EE2BCDBDEE00937167 /* LogColumn.swift in Sources */,
 				27DB6C252BCD580F008ADA85 /* PatriotMacApp.swift in Sources */,
+				275FD9EC2BCDBDBF00937167 /* StatusColumn.swift in Sources */,
+				275FD9EA2BCDBC9300937167 /* CommandColumn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
