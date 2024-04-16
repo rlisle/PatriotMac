@@ -32,10 +32,8 @@ struct LogColumn: View {
 #Preview {
     let config = ModelConfiguration(isStoredInMemoryOnly: true)
     let container = try! ModelContainer(for: Item.self, configurations: config)
-    
-    // Create preview MQTT items
-    for i in 1..<10 {
-        let item = Item()
+
+    for item in MockData.mqttEvents() {
         container.mainContext.insert(item)
     }
     

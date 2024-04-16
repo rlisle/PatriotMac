@@ -7,10 +7,6 @@
 
 import Foundation
 
-var sleeping: Bool = false
-var retiring: Bool = false
-var nighttime: Bool = false
-
 enum PartOfDay: Int {
     case Unitialized = 0,
     AwakeEarly,     // Early morning when waking before dawn
@@ -47,21 +43,21 @@ enum DeviceName: String {
     Workbench
 }
 
-func partOfDay() -> PartOfDay {
-    if sleeping {
+func partOfDay(date: Date = Date()) -> PartOfDay {
+    if Globals.sleeping {
         return PartOfDay.Asleep
     }
-    if retiring {
+    if Globals.retiring {
         return PartOfDay.Retiring
     }
-    if nighttime {
-        if Date().isAM() {
+    if Globals.nighttime {
+        if date.isAM() {
             return PartOfDay.AwakeEarly
         } else {
             return PartOfDay.Evening;
         }
     }
-    if Date().isAM() {
+    if date.isAM() {
         return PartOfDay.Morning;
     }
     return PartOfDay.Afternoon;

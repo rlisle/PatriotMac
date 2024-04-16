@@ -10,7 +10,7 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
-//    @Query private var items: [Item]
+    @Query private var items: [Item]
     
     var body: some View {
         HStack(spacing: 20) {
@@ -28,8 +28,7 @@ struct ContentView: View {
     let container = try! ModelContainer(for: Item.self, configurations: config)
     
     // Create preview MQTT items
-    for i in 1..<10 {
-        let item = Item()
+    for item in MockData.mqttEvents() {
         container.mainContext.insert(item)
     }
     
