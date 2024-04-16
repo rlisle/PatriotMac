@@ -1,5 +1,5 @@
 //
-//  Item.swift
+//  MqttEvent.swift
 //  PatriotMac
 //
 //  Created by Ron Lisle on 4/15/24.
@@ -9,7 +9,7 @@ import Foundation
 import SwiftData
 
 @Model
-final class Item {
+final class MqttEvent {
     var timestamp: Date
     var topic: String
     var message: String
