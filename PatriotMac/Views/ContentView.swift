@@ -10,13 +10,28 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @Query private var mqttEvents: [MqttEvent]
     
     var body: some View {
-        HStack(spacing: 20) {
+        HStack(spacing: 8) {
             CommandColumn()
+                .padding(4)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 8)
+                        .stroke(.gray, lineWidth: 1)
+                )
             StatusColumn()
+                .padding(4)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 8)
+                        .stroke(.gray, lineWidth: 1)
+                )
             LogColumn()
+                .padding(4)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 8)
+                        .stroke(.gray, lineWidth: 1)
+                )
         }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)//        NavigationSplitView {
@@ -25,11 +40,11 @@ struct ContentView: View {
 
 #Preview {
     let config = ModelConfiguration(isStoredInMemoryOnly: true)
-    let container = try! ModelContainer(for: Item.self, configurations: config)
+    let container = try! ModelContainer(for: MqttEvent.self, configurations: config)
     
-    // Create preview MQTT items
-    for item in MockData.mqttEvents() {
-        container.mainContext.insert(item)
+    // Create preview MQTT mqttEvents
+    for mqttEvent in MockData.mqttEvents() {
+        container.mainContext.insert(mqttEvent)
     }
     
     return ContentView()

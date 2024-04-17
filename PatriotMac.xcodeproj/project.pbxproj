@@ -17,7 +17,7 @@
 		275FD9F82BCEC9EB00937167 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275FD9F72BCEC9EB00937167 /* Globals.swift */; };
 		27DB6C252BCD580F008ADA85 /* PatriotMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C242BCD580F008ADA85 /* PatriotMacApp.swift */; };
 		27DB6C272BCD580F008ADA85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C262BCD580F008ADA85 /* ContentView.swift */; };
-		27DB6C292BCD580F008ADA85 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C282BCD580F008ADA85 /* Item.swift */; };
+		27DB6C292BCD580F008ADA85 /* MqttEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C282BCD580F008ADA85 /* MqttEvent.swift */; };
 		27DB6C2B2BCD5810008ADA85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27DB6C2A2BCD5810008ADA85 /* Assets.xcassets */; };
 		27DB6C2E2BCD5810008ADA85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27DB6C2D2BCD5810008ADA85 /* Preview Assets.xcassets */; };
 		27DB6C392BCD5810008ADA85 /* PartOfDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C382BCD5810008ADA85 /* PartOfDayTests.swift */; };
@@ -54,7 +54,7 @@
 		27DB6C212BCD580F008ADA85 /* PatriotMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatriotMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DB6C242BCD580F008ADA85 /* PatriotMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatriotMacApp.swift; sourceTree = "<group>"; };
 		27DB6C262BCD580F008ADA85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		27DB6C282BCD580F008ADA85 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		27DB6C282BCD580F008ADA85 /* MqttEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MqttEvent.swift; sourceTree = "<group>"; };
 		27DB6C2A2BCD5810008ADA85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27DB6C2D2BCD5810008ADA85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		27DB6C2F2BCD5810008ADA85 /* PatriotMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PatriotMac.entitlements; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 		275FD9F12BCE95A300937167 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				27DB6C282BCD580F008ADA85 /* Item.swift */,
+				27DB6C282BCD580F008ADA85 /* MqttEvent.swift */,
 				275FD9EF2BCE94DE00937167 /* PartOfDay.swift */,
 				275FD9F32BCEA14E00937167 /* DateExtension.swift */,
 				275FD9F52BCEBAC000937167 /* MockData.swift */,
@@ -304,7 +304,7 @@
 			files = (
 				27DB6C272BCD580F008ADA85 /* ContentView.swift in Sources */,
 				275FD9F42BCEA14E00937167 /* DateExtension.swift in Sources */,
-				27DB6C292BCD580F008ADA85 /* Item.swift in Sources */,
+				27DB6C292BCD580F008ADA85 /* MqttEvent.swift in Sources */,
 				275FD9EE2BCDBDEE00937167 /* LogColumn.swift in Sources */,
 				275FD9F62BCEBAC000937167 /* MockData.swift in Sources */,
 				275FD9F02BCE94DE00937167 /* PartOfDay.swift in Sources */,

@@ -9,10 +9,9 @@ import Foundation
 
 public extension Date {
     func isAM() -> Bool {
-        let currentDate: Date = self
         let calendar = Calendar.current
         let hour = calendar.component(.hour, from: self)
-        return hour < 13
+        return hour < 12 || hour == 24
     }
     
     // Return the date at a specified 24:00 time string
@@ -24,7 +23,8 @@ public extension Date {
         if let date = dateFormatter.date(from: timeString) {
             return date
         }
-        print("Failed to convert string \"\(timeString)\"to Date")
-        return Date()
+        print("Failed to convert string \"\(timeString)\"to Date. Returning midnight instead")
+        let defaultDate = dateFormatter.date(from: "00:00:00")!
+        return defaultDate
     }
 }

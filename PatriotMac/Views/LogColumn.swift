@@ -11,12 +11,12 @@ import SwiftData
 struct LogColumn: View {
     
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @Query private var mqttEvents: [MqttEvent]
 
     var body: some View {
         ScrollView {
             VStack(spacing: 10) {
-                ForEach(items) { message in
+                ForEach(mqttEvents) { message in
                     Text("MQTT \(message.topic) \(message.message)")
                         .padding()
                         .frame(maxWidth: .infinity)
@@ -31,10 +31,10 @@ struct LogColumn: View {
 
 #Preview {
     let config = ModelConfiguration(isStoredInMemoryOnly: true)
-    let container = try! ModelContainer(for: Item.self, configurations: config)
+    let container = try! ModelContainer(for: MqttEvent.self, configurations: config)
 
-    for item in MockData.mqttEvents() {
-        container.mainContext.insert(item)
+    for mqttEvent in MockData.mqttEvents() {
+        container.mainContext.insert(mqttEvent)
     }
     
     return LogColumn()
