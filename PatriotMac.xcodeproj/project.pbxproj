@@ -15,6 +15,7 @@
 		275FD9F42BCEA14E00937167 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275FD9F32BCEA14E00937167 /* DateExtension.swift */; };
 		275FD9F62BCEBAC000937167 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275FD9F52BCEBAC000937167 /* MockData.swift */; };
 		275FD9F82BCEC9EB00937167 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275FD9F72BCEC9EB00937167 /* Globals.swift */; };
+		27B87E152BCFFA91001D8E80 /* StatusRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B87E142BCFFA91001D8E80 /* StatusRow.swift */; };
 		27DB6C252BCD580F008ADA85 /* PatriotMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C242BCD580F008ADA85 /* PatriotMacApp.swift */; };
 		27DB6C272BCD580F008ADA85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C262BCD580F008ADA85 /* ContentView.swift */; };
 		27DB6C292BCD580F008ADA85 /* MqttEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB6C282BCD580F008ADA85 /* MqttEvent.swift */; };
@@ -51,6 +52,7 @@
 		275FD9F32BCEA14E00937167 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		275FD9F52BCEBAC000937167 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		275FD9F72BCEC9EB00937167 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		27B87E142BCFFA91001D8E80 /* StatusRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusRow.swift; sourceTree = "<group>"; };
 		27DB6C212BCD580F008ADA85 /* PatriotMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatriotMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DB6C242BCD580F008ADA85 /* PatriotMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatriotMacApp.swift; sourceTree = "<group>"; };
 		27DB6C262BCD580F008ADA85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				275FD9E92BCDBC9300937167 /* CommandColumn.swift */,
 				275FD9ED2BCDBDEE00937167 /* LogColumn.swift */,
 				275FD9EB2BCDBDBF00937167 /* StatusColumn.swift */,
+				27B87E142BCFFA91001D8E80 /* StatusRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				27DB6C272BCD580F008ADA85 /* ContentView.swift in Sources */,
 				275FD9F42BCEA14E00937167 /* DateExtension.swift in Sources */,
 				27DB6C292BCD580F008ADA85 /* MqttEvent.swift in Sources */,
+				27B87E152BCFFA91001D8E80 /* StatusRow.swift in Sources */,
 				275FD9EE2BCDBDEE00937167 /* LogColumn.swift in Sources */,
 				275FD9F62BCEBAC000937167 /* MockData.swift in Sources */,
 				275FD9F02BCE94DE00937167 /* PartOfDay.swift in Sources */,

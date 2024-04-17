@@ -13,28 +13,32 @@ struct ContentView: View {
     @Query private var mqttEvents: [MqttEvent]
     
     var body: some View {
-        HStack(spacing: 8) {
-            CommandColumn()
-                .padding(4)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 8)
-                        .stroke(.gray, lineWidth: 1)
-                )
-            StatusColumn()
-                .padding(4)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 8)
-                        .stroke(.gray, lineWidth: 1)
-                )
-            LogColumn()
-                .padding(4)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 8)
-                        .stroke(.gray, lineWidth: 1)
-                )
+        VStack {
+            StatusRow()
+            HStack(spacing: 8) {
+                CommandColumn()
+                    .padding(4)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 8)
+                            .stroke(.gray, lineWidth: 1)
+                    )
+                StatusColumn()
+                    .padding(4)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 8)
+                            .stroke(.gray, lineWidth: 1)
+                    )
+                LogColumn()
+                    .padding(4)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 8)
+                            .stroke(.gray, lineWidth: 1)
+                    )
+            }
+            .padding()
+            .padding(.top, -16)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
-        .padding()
-        .frame(maxWidth: .infinity, maxHeight: .infinity)//        NavigationSplitView {
     }
 }
 
